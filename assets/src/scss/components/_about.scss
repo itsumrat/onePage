@@ -1,0 +1,22 @@
+#about {
+	text-align: center;
+	height: 50vh;
+
+	.about-heading {
+		margin-bottom: 3.5rem;
+	}
+
+	.fa {
+		font-size: 4rem;
+		transition: color 0.50s ease-in-out;
+		margin-bottom: 1.5rem;
+
+		&:hover {
+			color: #B3AA83;
+		}
+	}
+
+	p {
+		padding: 0 1rem;
+	}
+}

@@ -1,0 +1,26 @@
+#contact {
+
+	.contact-details {
+		margin-top: 7rem;
+		ul {
+			li {
+				span {
+					font-weight: bold;
+				}
+
+				list-style: none;
+			}
+		}
+	}
+
+	.social-links {
+		margin-top: 2rem;
+		ul {
+			li {
+				list-style: none;
+				display: inline;
+				margin-right: 1rem;
+			}
+		}
+	}
+}
