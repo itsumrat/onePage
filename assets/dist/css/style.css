@@ -73,6 +73,19 @@ Copyright 2015-2015 Saddam Azad
   background-color: #eaeaea;
 }
 
+nav#nav-main {
+  float: right;
+}
+
+a.site-logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+a.site-logo:hover {
+  text-decoration: none;
+}
+
 body.okayNav-loaded {
   overflow-x: hidden;
 }
@@ -92,11 +105,16 @@ body.okayNav-loaded {
 
 .okayNav a {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   font-size: 1.4rem;
   font-weight: bold;
   /* Links general styling */
   color: #2e2e33;
+  text-decoration: none;
+}
+.okayNav a:hover {
+  color: #b3aa83;
+  text-decoration: blink;
 }
 
 .okayNav__nav--visible {
@@ -415,6 +433,16 @@ body.okayNav-loaded {
   visibility: visible;
 }
 
+#contact {
+  color: #fff; 
+  background-color: #111;
+}
+#contact .heading hr {
+  background-color: #fff;
+}
+#contact .heading p {
+  color: #f4f4f4;
+}
 #contact .contact-details {
   margin-top: 7rem;
 }
@@ -424,7 +452,6 @@ body.okayNav-loaded {
 #contact .contact-details ul li span {
   font-weight: bold;
 }
-
 #contact .social-links {
   margin-top: 2rem;
 }
@@ -432,6 +459,12 @@ body.okayNav-loaded {
   display: inline;
   margin-right: 1rem; 
   list-style: none;
+}
+#contact .social-links ul li .fa {
+  color: #fff;
+}
+#contact .social-links ul li .fa:hover {
+  color: #b3aa83;
 }
 
 footer {

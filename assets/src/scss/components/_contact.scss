@@ -1,7 +1,19 @@
 #contact {
+	background-color: #111;
+	color: #fff;
+
+	.heading {
+		hr {
+			background-color: #fff;
+		}
+		p {
+			color: #f4f4f4;
+		}
+	}
 
 	.contact-details {
 		margin-top: 7rem;
+
 		ul {
 			li {
 				span {
@@ -15,11 +27,20 @@
 
 	.social-links {
 		margin-top: 2rem;
+
 		ul {
 			li {
 				list-style: none;
 				display: inline;
 				margin-right: 1rem;
+
+				.fa {
+					color: #fff;
+
+					&:hover {
+						color: #B3AA83;
+					}
+				}
 			}
 		}
 	}

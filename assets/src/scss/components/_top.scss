@@ -67,6 +67,18 @@
 #header {
 	background-color: #eaeaea;
 }
+nav#nav-main {
+	float: right;
+}
+a.site-logo {
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
 body.okayNav-loaded {
   overflow-x: hidden;
 }
@@ -88,6 +100,12 @@ body.okayNav-loaded {
   font-weight: bold;
   position: relative;
   z-index: 1;
+  text-decoration: none;
+
+  &:hover {
+  	color: #B3AA83;
+    text-decoration: blink;
+  }
 }
 .okayNav__nav--visible {
   overflow: hidden;
