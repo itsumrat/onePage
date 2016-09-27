@@ -10,6 +10,11 @@
 		margin-top: 10rem;
 		color: #fff;
 
+    // Below 34em (544px)
+    @include media("<sm") {
+      margin-top: 3rem;
+    }
+
     	.square {
 	  		font-size: 3rem;
 	  		font-weight: bold;
@@ -18,12 +23,24 @@
 	  		border: 3px solid #fff;
 	    	transform: rotate(45deg);
 	    	margin: 0 auto;
+
+        // Below 34em (544px)
+        @include media("<sm") {
+          height: 60px;
+          width: 60px;
+          font-size: 2rem;
+        }
 	  	}
 
 	  	h1 {
 	  		text-transform: uppercase;
 	  		letter-spacing: 2.5px;
 	  		margin-top: 9rem;
+
+        // Below 34em (544px)
+        @include media("<sm") {
+          margin-top: 3rem;
+        }
 	  	}
 		
 		hr {
@@ -36,6 +53,11 @@
 			color: #f1ecec;
 			font-size: 0.8rem;
 			margin-bottom: 6.5rem;
+
+      // Below 34em (544px)
+      @include media("<sm") {
+        margin-bottom: 2rem;
+      }
 		}
 
 		a {
@@ -54,6 +76,11 @@
 		.fa-level-down {
 			margin-top: 5rem;
 			color: #fff;
+
+      // Below 34em (544px)
+      @include media("<sm") {
+        margin-top: 3rem;
+      }
 
 			&:hover {
 				color: #B3AA83;

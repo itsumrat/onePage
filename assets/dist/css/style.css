@@ -22,6 +22,11 @@ Copyright 2015-2015 Saddam Azad
   margin-top: 10rem;
   color: #fff;
 }
+@media (max-width: 33.99em) {
+  #top .heading-intro {
+    margin-top: 3rem;
+  }
+}
 #top .heading-intro .square {
   width: 80px;
   height: 80px;
@@ -34,10 +39,22 @@ Copyright 2015-2015 Saddam Azad
        -o-transform: rotate(45deg);
           transform: rotate(45deg);
 }
+@media (max-width: 33.99em) {
+  #top .heading-intro .square {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}
 #top .heading-intro h1 {
   margin-top: 9rem; 
   text-transform: uppercase;
   letter-spacing: 2.5px;
+}
+@media (max-width: 33.99em) {
+  #top .heading-intro h1 {
+    margin-top: 3rem;
+  }
 }
 #top .heading-intro hr {
   width: 80px;
@@ -48,6 +65,11 @@ Copyright 2015-2015 Saddam Azad
   margin-bottom: 6.5rem; 
   font-size: .8rem;
   color: #f1ecec;
+}
+@media (max-width: 33.99em) {
+  #top .heading-intro h6 {
+    margin-bottom: 2rem;
+  }
 }
 #top .heading-intro a {
   padding: .500rem 1.5rem;
@@ -63,6 +85,11 @@ Copyright 2015-2015 Saddam Azad
 #top .heading-intro .fa-level-down {
   margin-top: 5rem;
   color: #fff;
+}
+@media (max-width: 33.99em) {
+  #top .heading-intro .fa-level-down {
+    margin-top: 3rem;
+  }
 }
 #top .heading-intro .fa-level-down:hover {
   color: #b3aa83;
